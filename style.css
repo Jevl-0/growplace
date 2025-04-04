@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+canvas {
+    border: 1px solid #000;
+}
+
+.color-palette {
+    margin-top: 20px;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.color:hover {
+    transform: scale(1.1);
+}
